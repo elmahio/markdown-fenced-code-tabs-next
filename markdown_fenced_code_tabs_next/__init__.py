@@ -212,14 +212,14 @@ class CodeTabsExtension(Extension):
         self.config = {
             'single_block_as_tab': [False, 'Render a single code block as a tab'],
             'active_class': ['active', 'Class name is applied to the active tab'],
-            'template': ['default', 'A string that specifies which HTML template should be used default, bootstrap3, or bootstrap4'],
+            'template': ['default', 'A string that specifies which HTML template should be used default, bootstrap3, bootstrap4, or bootstrap5'],
         }
 
         super(CodeTabsExtension, self).__init__(*args, **kwargs)
 
     def _get_template_file_name(self, name):
         template = 'default'
-        templates = ['bootstrap3', 'bootstrap4']
+        templates = ['bootstrap3', 'bootstrap4', 'bootstrap5']
 
         if name in templates:
             template = name
