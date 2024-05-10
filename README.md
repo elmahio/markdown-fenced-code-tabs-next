@@ -1,7 +1,5 @@
-<p align="center">
-    <a href="https://pypi.python.org/pypi/markdown-fenced-code-tabs-next">
-        <img src="https://img.shields.io/pypi/v/markdown-fenced-code-tabs-next.svg"/>
-    </a>
+<p>
+    <a href="https://pypi.python.org/pypi/markdown-fenced-code-tabs-next"><img src="https://img.shields.io/pypi/v/markdown-fenced-code-tabs-next.svg"/></a>
     <img src="https://img.shields.io/pypi/pyversions/markdown-fenced-code-tabs-next.svg"/>
     <img src="https://img.shields.io/pypi/l/markdown-fenced-code-tabs-next.svg"/>
 </p>
