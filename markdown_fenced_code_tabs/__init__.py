@@ -73,7 +73,7 @@ class CodeTabsPreprocessor(Preprocessor):
         self.tab_placeholder_regex = re.compile('<!-- {0}__code_tab__([0-9]+) -->'.format(current_time))
 
     def _get_codehilite_config(self):
-        for ext in self.markdown.registeredExtensions:
+        for ext in self.md.registeredExtensions:
             if isinstance(ext, CodeHiliteExtension):
                 return ext.config
 
@@ -149,7 +149,7 @@ class CodeTabsPreprocessor(Preprocessor):
                         tab_group.add_tab(self.items.popleft())
 
                     group_html = self._generate_group_html_code(tab_group)
-                    transformed_lines += '\n' + self.markdown.htmlStash.store(group_html) + '\n\n'
+                    transformed_lines += '\n' + self.md.htmlStash.store(group_html) + '\n\n'
 
                     groups_count += 1
                     first_tab_index = None
@@ -165,7 +165,7 @@ class CodeTabsPreprocessor(Preprocessor):
                 tab_group.add_tab(self.items.popleft())
 
             group_html = self._generate_group_html_code(tab_group)
-            transformed_lines += '\n' + self.markdown.htmlStash.store(group_html) + '\n\n'
+            transformed_lines += '\n' + self.md.htmlStash.store(group_html) + '\n\n'
 
         return transformed_lines
 
@@ -225,7 +225,7 @@ class CodeTabsExtension(Extension):
 
         return "{}-{}".format(template, 'template.html')
 
-    def extendMarkdown(self, md, md_globals):
+    def extendMarkdown(self, md):
         self.setConfig('single_block_as_tab', util.to_bool(
             self.getConfig('single_block_as_tab')
         ))
@@ -237,7 +237,7 @@ class CodeTabsExtension(Extension):
         md.registerExtension(self)
 
         # Add CodeTabsPreprocessor to the Markdown instance.
-        md.preprocessors.add('fenced_code_block', CodeTabsPreprocessor(md, self.getConfigs()), '>normalize_whitespace')
+        md.preprocessors.register(CodeTabsPreprocessor(md, self.getConfigs()), 'fenced_code_block', 25)
 
 
 def makeExtension(*args, **kwargs):

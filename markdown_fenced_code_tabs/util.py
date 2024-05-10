@@ -20,7 +20,7 @@ def to_bool(param):
     the_bool = param
 
     if isinstance(param, str):
-        the_bool = False if param.lower() is 'false' else True
+        the_bool = False if param.lower() == 'false' else True
 
     return the_bool
 
