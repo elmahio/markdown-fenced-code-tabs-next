@@ -1,3 +1,6 @@
+## 1.1.0 (2024-05-10)
+  * **FIX**: Build failure due to [markdown 3.4+ package breaking change](https://python-markdown.github.io/changelog/#md_globals-keyword-deprecated-from-extension-api).
+
 ## 1.0.5 (2018-11-14)
   * **FIX**: Custom label capitalization issue.
 

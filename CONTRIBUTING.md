@@ -7,7 +7,7 @@
 Any type of contribution is welcome, not only code. You can help with 
 
 - **QA**: file bug reports, the more details you can give the better (e.g. screenshots with the console open)
-- **Code**: take a look at the [open issues](https://github.com/yacir/markdown-fenced-code-tabs/issues). Even if you can't write code, commenting on them, showing that you care about a given issue matters. It helps us triage them.
+- **Code**: take a look at the [open issues](https://github.com/elmahio/markdown-fenced-code-tabs-next/issues). Even if you can't write code, commenting on them, showing that you care about a given issue matters. It helps us triage them.
 
 ## Your First Contribution
 
@@ -24,4 +24,4 @@ It is also always helpful to have some context for your pull request. What was t
 
 ## Questions
 
-If you have any questions or found a bug in the source code, create an [issue](https://github.com/yacir/markdown-fenced-code-tabs/issues) (protip: do a quick search first to see if someone else didn't ask the same question before!).
+If you have any questions or found a bug in the source code, create an [issue](https://github.com/elmahio/markdown-fenced-code-tabs-next/issues) (protip: do a quick search first to see if someone else didn't ask the same question before!).

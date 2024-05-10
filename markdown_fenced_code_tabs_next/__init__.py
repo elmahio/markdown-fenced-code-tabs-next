@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 
 """
-Fenced Code Tabs Extension for Python Markdown
+Fenced Code Tabs Extension for Python Markdown 3.4+
 =========================================
 
 This extension generates Bootstrap HTML Tabs for consecutive fenced code blocks
 
-See <https://github.com/yacir/markdown-fenced-code-tabs> for documentation.
+See <https://github.com/elmahio/markdown-fenced-code-tabs-next> for documentation.
 
-Copyright (c) 2017-present [Yassir Barchi](https://github.com/yacir).
+Copyright (c) 2017-2024 [Yassir Barchi](https://github.com/yacir).
+Copyright (c) 2024-present [elmah.io](https://github.com/elmahio).
 
 License: [MIT](https://opensource.org/licenses/MIT)
 """
