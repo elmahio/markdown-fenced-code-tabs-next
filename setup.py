@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='markdown-fenced-code-tabs-next',
-    version='1.1.0',
+    version='1.1.1',
     url='https://github.com/elmahio/markdown-fenced-code-tabs-next',
     project_urls={
         'Bug Reports': 'https://github.com/elmahio/markdown-fenced-code-tabs-next/issues',
@@ -22,7 +22,7 @@ setup(
     maintainer='elmah.io',
     maintainer_email='info@elmah.io',
     license='MIT',
-    keywords=['fenced code blocks', 'code', 'fenced', 'tabs', 'mkdocs', 'markdown', 'next'],
+    keywords=['fenced code blocks', 'code', 'fenced', 'tabs', 'mkdocs', 'markdown', 'bootstrap', 'next'],
     long_description=""" Markdown extension who generates HTML tabs for consecutive fenced code blocks in markdown syntax """,
     zip_safe=False,
     classifiers=[

@@ -1,3 +1,6 @@
+## 1.1.1 (2024-08-14)
+  * **NEW**: Added the Bootstrap 5 template support
+
 ## 1.1.0 (2024-05-10)
   * **FIX**: Build failure due to [markdown 3.4+ package breaking change](https://python-markdown.github.io/changelog/#md_globals-keyword-deprecated-from-extension-api).
 
