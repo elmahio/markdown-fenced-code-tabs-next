@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='markdown-fenced-code-tabs-next',
-    version='1.1.1',
+    version='1.1.2',
     url='https://github.com/elmahio/markdown-fenced-code-tabs-next',
     project_urls={
         'Bug Reports': 'https://github.com/elmahio/markdown-fenced-code-tabs-next/issues',
