@@ -12,7 +12,7 @@ setup(
     packages=['markdown_fenced_code_tabs_next'],
     install_requires=[
         'markdown>=3.4',
-        'htmlmin>=0.1.12',
+        'htmlmin2>=0.1.13',
         'Jinja2>=2.7.1'
     ],
     include_package_data=True,
