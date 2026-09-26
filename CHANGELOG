@@ -1,3 +1,6 @@
+## 1.1.2 (2026-09-26)
+  * **FIX**: Replaced htmlmin with htmlmin2. This fixes the error on Python 3.13+ and keeps support for older Python versions.
+
 ## 1.1.1 (2024-08-14)
   * **NEW**: Added the Bootstrap 5 template support
 
