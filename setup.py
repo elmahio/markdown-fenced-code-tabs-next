@@ -6,6 +6,7 @@ setup(
     version='1.1.2',
     url='https://github.com/elmahio/markdown-fenced-code-tabs-next',
     project_urls={
+        'Changelog': "https://github.com/elmahio/markdown-fenced-code-tabs-next/blob/master/CHANGELOG",
         'Bug Reports': 'https://github.com/elmahio/markdown-fenced-code-tabs-next/issues',
         'Source': 'https://github.com/elmahio/markdown-fenced-code-tabs-next',
     },
